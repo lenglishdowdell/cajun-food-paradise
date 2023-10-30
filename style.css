@@ -1,0 +1,70 @@
+header {
+	background-color: #FEF7EC;
+}
+
+nav {
+	background-color: #EF381F;
+}
+
+main {
+	margin-top: 50px;
+}
+
+footer {
+	background-color: #000000;
+	color: #ffffff;
+}
+
+.navbar-nav a:link { color: #FEF7EC; }
+.navbar-nav a:visited { color: #FEF7EC; }
+.navbar-nav a:hover { color: gold; }
+.navbar-nav a:active { color: gold; }
+
+.navbar-nav .active{
+    color:gold !important;
+}
+
+#heroHome {
+	background-image: url('cajun-5354597_1280.jpg');
+    background-position: center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	padding: 30px 0;
+}
+
+#heroText {
+	padding: 25px;
+	margin: 40px;
+	color: white;
+	backdrop-filter: blur(6px) saturate(102%);
+    -webkit-backdrop-filter: blur(6px) saturate(102%);
+    background-color: rgba(0, 0, 0, 0.45);
+    border-radius: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.45);
+}
+
+.recipe-card {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+#restaurants {
+	background-color: #FEF7EC;
+}
+
+table tr td, table tr th{
+    background-color: #FEF7EC !important;
+	border-color: black;
+}
+
+a:link { color: #EF381F; }
+a:visited { color: #EF381F; }
+a:hover { color: gold; }
+
+.logoImg {
+	width: 100px;
+}
+
+.logoDiv {
+	text-align: center;
+}
