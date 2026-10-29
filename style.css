@@ -18,11 +18,30 @@ footer {
 .navbar-nav a:link { color: #FEF7EC; }
 .navbar-nav a:visited { color: #FEF7EC; }
 .navbar-nav a:hover { color: gold; }
-.navbar-nav a:active { color: gold; }
+.navbar-nav a.active { color: gold; }
 
-.navbar-nav .active{
-    color:gold !important;
+/*.navbar-nav .active{
+    color: gold;
+}*/
+
+/* Mobile drawer styling */
+@media (max-width: 575.98px) {
+
+    .navbar .drawer .nav-link {
+        color: #212529;
+    }
+
+    .navbar .drawer .nav-link:hover {
+        color: #EF381F;
+    }
+	
+	.navbar .drawer .nav-link.active {
+        color: #EF381F;
+    }
+
 }
+
+
 
 #heroHome {
 	background-image: url('cajun-5354597_1280.jpg');
@@ -63,6 +82,23 @@ a:hover { color: gold; }
 
 .logoImg {
 	width: 100px;
+}
+
+.logoDiv {
+	text-align: center;
+}
+
+/* Responsive YouTube video */
+.video-container {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+}
+
+.video-container iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    display: block;
 }
 
 .logoDiv {
